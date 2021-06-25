@@ -1,12 +1,13 @@
 package com.example.WebFluxPerson.models;
 
+import com.example.interfaces.models.PersonModelInterface;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 
 @Data
 @NoArgsConstructor
-public class Person {
+public class Person implements PersonModelInterface {
     @Id
     private Long id;
     private String name;

@@ -1,10 +1,10 @@
-package com.example.WebFluxRequests;
+package com.example.WebFluxPerson;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WebFluxRequestsApplicationTests {
+class WebFluxPersonInterfaceApplicationTests {
 
 	@Test
 	void contextLoads() {
